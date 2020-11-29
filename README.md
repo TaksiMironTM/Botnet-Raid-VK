@@ -3,50 +3,52 @@
 
 Прочитай обязательно инструкцию в файле Instruction!
 
-Видео про этот скрипт https://vk.cc/aD0us9!
+[Видео про этот скрипт](https://vk.cc/aD0us9)
 
---->Установка для Windows:
+# Установка для Windows:
 
-1)Скачать python: скачать с сайта https://www.python.org/ - нажать на галочку add при установке,
+1. Скачать [python](https://www.python.org/), при установке нажать на галочку `add to PATH`
 
-2)Скачать файлы с гитхаба и распаковать их в любое место,
+2. Скачать файлы с гитхаба и распаковать их в любое место
 
-3)Заполнить файл: settings.json,
+3. Заполнить файл `settings.json`
 
-3)Перейти в папку со скриптом. Пример: cd taksi/taksi/Botnet-Raid-VK,
+4. Перейти в папку со скриптом через терминал:
+```sh
+cd путь/до/папки/Botnet-Raid-VK
+```
 
-4)Прописать команды:
+5. Прописать команды:
 
--pip3 install requests
+```sh
+pip3 install requests
+pip3 install numpy
+```
 
--pip3 install numpy
+6. Запуск: 
+```sh
+python taksimiron.py
+```
 
-5)Запуск: python taksimiron.py
+# Установка для Termux:
 
---->Установка для Termux:
+1. Прописать команды:
+```sh
+apt update && apt upgrade
+apt install python
+apt install git
+git clone https://github.com/TaksiMironTM/Botnet-Raid-VK
+cd Botnet-Raid-VK
+pip install requests
+pip install numpy
+```
 
-1)Прописать команды:
+2. После переходим в проводник и редактируем файл: settings.json (можете попробовать через nano в Termux)
 
--apt update && apt upgrade
+3. Команды, которые нужно прописывать перед каждым запуском скрипта:
+```sh
+cd Botnet-Raid-VK
+python taksimiron.py
+```
 
--apt install python
-
--apt install git
-
--git clone https://github.com/TaksiMironTM/Botnet-Raid-VK
-
--cd Botnet-Raid-VK
-
--pip install requests
-
--pip install numpy
-
-2)После переходим в проводник и редактируем файл: settings.json (можете попробовать через nano в Termux)
-
-3)Команды, которые нужно прописывать перед каждым запуском скрипта:
-
--cd Botnet-Raid-VK
-
--python taksimiron.py
-
-Удачи Таксист!
+Удачи, Таксист!
