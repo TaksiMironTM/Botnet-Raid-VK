@@ -321,5 +321,5 @@ loadJSONSettings()
 for i in range(0, len(accounts)):
     authorize(i)
 
-print('[Успех]: Бот готов к использованию! Не забудь подписаться на наши каналы:\nWhyHacks(YouTube) и @taksimiron_tm(TG)')
+print('[Успех]: Бот готов к использованию! Не забудь подписаться на наши каналы:\nWhyHacks(YouTube) и @taksimironraid(TG)')
 BotAI(0)
